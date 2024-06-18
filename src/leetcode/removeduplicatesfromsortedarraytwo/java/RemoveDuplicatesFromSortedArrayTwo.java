@@ -1,7 +1,5 @@
 package leetcode.removeduplicatesfromsortedarraytwo.java;
 
-import java.util.*;
-
 public class RemoveDuplicatesFromSortedArrayTwo {
     public int removeDuplicates(int[] nums) {
         int i=0;
