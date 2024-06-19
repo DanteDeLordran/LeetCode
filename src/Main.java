@@ -1,9 +1,9 @@
 import leetcode.majorityelement.java.MajorityElement;
 import leetcode.mergesortedarray.kotlin.MergeSortedArray;
-import leetcode.removeduplicatesfromsortedarray.java.RemoveDuplicatesFromSortedArray;
+import leetcode.removeduplicatesfromsortedarray.kotlin.RemoveDuplicatesFromSortedArray;
 import leetcode.removeduplicatesfromsortedarraytwo.java.RemoveDuplicatesFromSortedArrayTwo;
-import leetcode.removeelement.java.RemoveElement;
-import leetcode.rotatearray.java.RotateArray;
+import leetcode.removeelement.kotlin.RemoveElement;
+import leetcode.rotatearray.kotlin.RotateArray;
 
 import java.util.Arrays;
 
@@ -17,8 +17,10 @@ public class Main {
         //int[] nums3 = {0,0,1,1,1,2,2,3,3,4};
         //System.out.println("Remove element");
         //new RemoveElement().removeElement(nums3, 2);
+        //new RemoveElement().removeElement(nums3, 1);
 
         //System.out.println("Remove duplicates from sorted array");
+        //new RemoveDuplicatesFromSortedArray().removeDuplicates(nums3);
         //new RemoveDuplicatesFromSortedArray().removeDuplicates(nums3);
 
         //int[] nums4 = {0,0,1,1,1,1,2,3,3,3,3,3,3,3,3,4,4,4,4,4,4,5};
@@ -27,7 +29,8 @@ public class Main {
         //new RemoveDuplicatesFromSortedArrayTwo().removeDuplicates(nums5);
         //int[] nums = {0,0,1,1,1,1,2,3,3,3,3,3,3,3,3,4,4,4,4,4,4,5};
         //new MajorityElement().majorityElement(nums);
-        int[] nums = {1,2,3,4,5,6,7};
-        new RotateArray().rotate(nums, 3);
+        //int[] nums = {1,2,3,4,5,6,7};
+        //new RotateArray().rotate(nums, 3);
+        //new RotateArray().rotate(nums, 3);
     }
 }
