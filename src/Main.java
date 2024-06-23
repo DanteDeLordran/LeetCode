@@ -1,3 +1,4 @@
+import leetcode.besttimetobuyandsellstock.kotlin.BestTimeToBuyAndSellStock;
 import leetcode.majorityelement.java.MajorityElement;
 import leetcode.mergesortedarray.kotlin.MergeSortedArray;
 import leetcode.removeduplicatesfromsortedarray.kotlin.RemoveDuplicatesFromSortedArray;
@@ -32,5 +33,7 @@ public class Main {
         //int[] nums = {1,2,3,4,5,6,7};
         //new RotateArray().rotate(nums, 3);
         //new RotateArray().rotate(nums, 3);
+        int[] prices = {7,6,4,3,1};
+        new BestTimeToBuyAndSellStock().maxProfit(prices);
     }
 }
